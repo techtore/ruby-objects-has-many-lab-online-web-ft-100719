@@ -15,5 +15,6 @@ class Song
       @artist 
     else 
       nil
+    end
   end
 end
