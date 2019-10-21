@@ -12,6 +12,6 @@ class Artist
     song.artist << self
   end
    def songs
-    Song.all << self
+    Song.all << artist
   end
 end
