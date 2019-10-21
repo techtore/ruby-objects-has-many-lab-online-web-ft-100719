@@ -6,6 +6,7 @@ class Artist
     @name = name 
   end
   def songs
-    
+    songs.artist = self
   end 
+  
 end
