@@ -12,15 +12,15 @@ class Post
   def self.all
     @@all
   end
+  
   def title 
     @title 
   end
   
-  def author 
-    @author
-  end 
   def author_name
-    author.name = self
+    if @author == nil
+      return nil
+    else
+      @author.name
   end
-  
 end
